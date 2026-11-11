@@ -1,0 +1,36 @@
+# 大文件：数据集、权重、虚拟环境——不进 Git，用网盘/外部存储同步
+datasets/
+代码设计/.venv/
+代码设计/weights/
+代码设计/CodeFormer/
+
+# Python 运行时产物
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# 实验产物（按需选择性提交）
+代码设计/results/
+代码设计/err.log
+
+# IDE / 系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 压缩包
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# 模型权重（所有位置的）
+*.pth
+*.onnx
+*.safetensors
+*.bin
+
+# HF 缓存
+.hf_cache/
